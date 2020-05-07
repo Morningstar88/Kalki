@@ -22,11 +22,6 @@ Then, add a link to the bookmark ("Useful Tips Section"), from within the same p
 
 <h1 align="center"> Kalki :bulb:</h1>
 
-<h2></h2> 
-<h2></h2>
-<h2>Here's the 
-<a href="https://www.reddit.com/r/Futurology/comments/55w405/brainstorming_industries_of_the_future_jobs_for/">timeline we're building</a>
-
 <p align="center">
 <img src="https://i.imgur.com/cAgNsHV.jpg">
 </p>
