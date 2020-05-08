@@ -47,7 +47,7 @@ You can set up your own node for free. You can then run your own node and help p
 
 You will need to be familiar with Reddit and Patreon. 
 
-### Example
+### Examples
 
 
 
