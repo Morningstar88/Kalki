@@ -30,8 +30,7 @@ Then, add a link to the bookmark ("Useful Tips Section"), from within the same p
 
 <h1 align="center";>Crowdfund $140</h1>
 <br>
-<h2 align="center">Tron-funding</h2>  <h3 align="center">Turning Crowdfunding into a multiplayer game. Two players compete to win 
-Helping People Get on the Crowdfunding Ladder
+<h2 align="center">Fast Crowdfunding for Small Amounts. </h2>  <h3 align="center">
 
 # Node Count
 
