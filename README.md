@@ -32,10 +32,8 @@ Then, add a link to the bookmark ("Useful Tips Section"), from within the same p
 <br>
 <h2 align="center">Mission: Create work planting trees, cleaning trash, putting out flowers... or anything you want.</h2>  <h3 align="center">
 
-# Kalki Quickstart
+To start raising money now please follow our quickstart guide Kalki Quickstart
 
-### Set up a Patreon or GoFundMe
-### Set the limit at 300USD per month. (You can try for more later)
 
 
 
