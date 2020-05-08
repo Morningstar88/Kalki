@@ -20,10 +20,10 @@ Then, add a link to the bookmark ("Useful Tips Section"), from within the same p
 
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
-<h1 align="center"> Kalki :bulb:</h1>
+<h1 align="center"> Kalki</h1>
 
 <p align="center">
-<img src="https://i.imgur.com/cAgNsHV.jpg">
+<img src="https://i.imgur.com/cAgNsHV.jpg" height="400vh" width="auto">
 </p>
 
 <br><br>
