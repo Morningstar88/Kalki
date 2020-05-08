@@ -30,8 +30,6 @@ Then, add a link to the bookmark ("Useful Tips Section"), from within the same p
 
 <h1 align="center";>:cyclone:Quick List of Prototypes:cyclone:</h1>
 <br>
-<br>
-<br>
 <h2 align="center">Tron-funding</h2>  <h3 align="center">Turning Crowdfunding into a multiplayer game. Two players compete to win 
 Helping People Get on the Crowdfunding Ladder
 
