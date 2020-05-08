@@ -30,7 +30,7 @@ Then, add a link to the bookmark ("Useful Tips Section"), from within the same p
 
 <h1 align="center";>Crowdfund $140</h1>
 <br>
-<h2 align="center">Mission: Help you get part time work ASAP</h2>  <h3 align="center">
+<h2 align="center">Mission: Part time work planting trees, cleaning trash, putting out flowers... or anything you want.</h2>  <h3 align="center">
 
 # Kalki Quickstart
 
