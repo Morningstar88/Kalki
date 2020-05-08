@@ -41,7 +41,7 @@ Then, add a link to the bookmark ("Useful Tips Section"), from within the same p
 
 # Node Count
 
-We currently have 1 node. 
+We currently have 1 node running.
 
 # How to Set Up a Kalki Node
 
