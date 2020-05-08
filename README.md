@@ -32,6 +32,13 @@ Then, add a link to the bookmark ("Useful Tips Section"), from within the same p
 <br>
 <h2 align="center">Fast Crowdfunding for Small Amounts. </h2>  <h3 align="center">
 
+# Kalki Quickstart
+
+### Set up a Patreon or GoFundMe
+### Set the limit at 300USD per month. (You can try for more later)
+
+
+
 # Node Count
 
 We currently have 1 node. 
