@@ -32,13 +32,7 @@ Then, add a link to the bookmark ("Useful Tips Section"), from within the same p
 <br>
 <br>
 <br>
-<h2 align="center">Tron-funding</h2>  <h3 align="center">Turning Crowdfunding into a multiplayer game. Two players compete to win crowdfunded cash for their environmental projects. Head to head challenges on any game: Biplanes, Speed Racers, Sword-fights, Chess. Each player represents an organic project. Winning project wins 75% of the prize fund, second place wins 25%.</h3>  
-<br>
-
-<ul align="center"> https://github.com/Microflow/Tron-funding</ul>
-<br><br>
-<h2 align="center">Buy Some Give One</h2> <h3 align="center">Online marketplace where buying stimulates giving. For every 10 Ukulele's sold, one is given away. Ever 20 kilos of red rice sold, one is given away. Portal links through to merchants who pledge to give away one product for every ten or twenty they sell. Operating revenue comes from advertising, donations, or monthly subscriptions from merchants.   </h3>  
-<br># Kalki
+<h2 align="center">Tron-funding</h2>  <h3 align="center">Turning Crowdfunding into a multiplayer game. Two players compete to win 
 Helping People Get on the Crowdfunding Ladder
 
 # Node Count
