@@ -34,24 +34,22 @@ To start raising money now please follow our quickstart guide Kalki Quickstart
 
 
 
+# Estimated Total 
+
+We've currently helped people raise over 100USD.
 
 # Node Count
 
-We currently have 1 node running.
+We currently have 2 nodes running.
 
-# How to Set Up a Kalki Node
+## Master Node
 
-You can set up your own node for free. You can then run your own node and help people in your local area. Imagine running a node for East Village in New York. You could help people crowdfund, and set up jobs for themselves. 
+http://kalki.cloud/
 
-You will need to be familiar with Reddit and Patreon. 
+## List of Nodes
 
-### Examples
-
-
-
-## Making a Reddit Node
+https://www.reddit.com/r/KalkiDanshui/
 
 
-## Making a Vanilla Forums node
 
 
