@@ -20,7 +20,7 @@ Then, add a link to the bookmark ("Useful Tips Section"), from within the same p
 
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
-<h1 align="center"> Kalki</h1>
+<h1 align="center"> Kalki: Creating Work</h1>
 
 <p align="center">
 <img src="https://i.imgur.com/cAgNsHV.jpg" height="400vh" width="auto">
@@ -28,8 +28,6 @@ Then, add a link to the bookmark ("Useful Tips Section"), from within the same p
 
 <br><br>
 
-<h1 align="center";>Crowdfund $140</h1>
-<br>
 <h2 align="center">Mission: Create work planting trees, cleaning trash, putting out flowers... or anything you want.</h2>  <h3 align="center">
 
 To start raising money now please follow our quickstart guide Kalki Quickstart
