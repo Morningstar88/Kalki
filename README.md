@@ -35,6 +35,9 @@ To start raising money now please follow our quickstart guide Kalki Quickstart
 ##[Letter to donors](https://medium.com/@frodonomics/kalki-letter-to-donors-986f48c311f1)##
 
 
+##[Example User Stories](https://medium.com/@frodonomics/kalki-user-stories-e6db7762924e)##
+
+
 
 
 
