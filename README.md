@@ -32,6 +32,8 @@ Then, add a link to the bookmark ("Useful Tips Section"), from within the same p
 
 To start raising money now please follow our quickstart guide Kalki Quickstart
 
+# Medium Articles
+
 [Letter to donors](https://medium.com/@frodonomics/kalki-letter-to-donors-986f48c311f1)
 
 
