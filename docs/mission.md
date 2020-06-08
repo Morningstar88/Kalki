@@ -1,8 +1,12 @@
 # Kalki Mission Statement
 
-Kalki aims to get people work as quickly as possible. You can crowdfund a small amount of money, then larger amounts. Try and crowdfund 30USD to pick up some trash in the local area, or 20USD to learn how to plant a tree, 50USD for a new Ukulele, or 100USD to start a sprout farm. 
+We aim to get users hourly work as quickly as possible. You can crowdfund a small amount of money, then later larger amounts. 
 
-## We're excited about:
+## What can I crowdfund?
+
+Try and crowdfund 30USD to pick up some trash in the local area... 20USD to learn how to plant a tree, 50USD for a new Ukulele, or 100USD to start a home farm. 
+
+## Projects we're excited about:
 
 - Picking up trash
 
@@ -24,4 +28,4 @@ Kalki aims to get people work as quickly as possible. You can crowdfund a small 
 
 - Learning other skills that benefit your city. 
 
-Remember, when you’re asking for money, you’re asking an entire city. Say why what you're doing will benefit the entire city. 
+Remember, when you’re asking for money, you’re asking an entire city. Say why what you're doing should benefit the entire city. 
