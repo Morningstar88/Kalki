@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html>
+<title>Ḱ</title>
+
+<body>
+
 <head>
    <meta name="viewport" content="width=device-width, initial-scale=1">
   
@@ -370,19 +376,13 @@ body {
 
 .navbar a {
   font-size: 1.7em;
+  letter-spacing: -3px;
 }
 
 .navbar .fa-external-link {
   font-size: 10px;
 }
 
-.main-heading {
-  font-family: 'Open sans', sans-serif;
-  font-weight: 300;
-  text-align: center;
-  letter-spacing: 9px;
-  text-transform: uppercase;
-}
 
 .container > h1 {
   font-weight: 300;
@@ -480,10 +480,11 @@ hr {
 /*Main*/
 .sec-main {
   position: relative;
-  height: 300px;
+  height: 350px;
   /*ORIG 560px*/
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/long-exposure-photography-white-dome-building-interior-911758.jpg) no-repeat center center;
+  background: url(https://assets.codepen.io/577362/rsz_1couple-chilling-on-black-sand-near-waving-sea-4172920.jpg) no-repeat center center;
   background-size: cover;
+  background-position: center -105px;
   opacity: 1;
   font-size: 1.9em;
 }
@@ -507,9 +508,16 @@ hr {
   padding: 0;
   margin: auto;
   height: 40px;
-  color: #333;
+  color: rgba(240,240,240,0.87);
+  font-family: 'Josefin sans', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 9px;
+
+ /*text-transform: uppercase;  text-shadow: 1px 0px 0px rgba(255,255,255,0.5);*/
 }
 
+    
 /*About*/
 .sec-about a {
   color: #fff;
@@ -581,6 +589,15 @@ background: #fff;
   font-family: 'Open sans';
   text-align: center;
     }    
+    
+    .work-fixing-earth {
+  font-size: 2em;
+  font-family: 'Open sans';
+  text-align: center;
+      letter-spacing: 4px;
+      font-style: oblique;
+      color: rgba(20,20,20,0.88)
+    } 
 
 /*Footer*/
 footer {
@@ -742,7 +759,7 @@ footer {
       inlineCSS: false, // inline style css 속성 입히기, 별도 css 정의 없을때 true
       onInit: function (base, opts) {
         base.$items.find('p').lettering('lines');
-        for (var i = 0; i < base.$items.length; i++) {if (window.CP.shouldStopExecution(0)) break;
+        for (var i = 0; i < base.$items.length; i++) {//if (window.CP.shouldStopExecution(0)) break;
           var $item = base.$items.eq(i);
           $item.find('h2 strong').css('transition-delay', opts.transition.duration + 'ms');
           $item.find('span').each(function (j) {
@@ -750,7 +767,7 @@ footer {
               'transition-delay': j * 40 + opts.transition.duration + 'ms' }).
             wrap('<strong />');
           });
-        }window.CP.exitedLoop(0);
+        }//window.CP.exitedLoop(0);
       },
       onSlideChangeEnd: function (base, opts) {
         // console.log(base.uniqueId + '/' + base.idx);
@@ -829,7 +846,8 @@ footer {
         base.$itemsBackgrounds.css(CSS.backgrounds);
       },
       items: function () {
-        for (var i = 0; i < base.length; i++) {if (window.CP.shouldStopExecution(1)) break;
+        for (var i = 0; i < base.length; i++) {
+          //if (window.CP.shouldStopExecution(1)) break;
           var _$item = base.$items.eq(i),
           _$bg = base.$itemsBackgrounds.eq(i);
           var _itemLeft = 100 * i,
@@ -840,15 +858,15 @@ footer {
           if (opts.fx.parallax === true) {// 패럴럭스 배경
             _$bg.css('left', _bgLeft + '%');
           }
-        }window.CP.exitedLoop(1);
+        }//window.CP.exitedLoop(1);
       },
       pagination: function () {// pagination
         if (!base.$pagination.length) return false;
         var _html = '<div class="slider-pagination-inner">';
-        for (var i = 0; i < base.length; i++) {if (window.CP.shouldStopExecution(2)) break;
+        for (var i = 0; i < base.length; i++) {//if (window.CP.shouldStopExecution(2)) break;
           var _className = i < 1 ? CLASS.active : '';
           _html += '<a href="javascript:;" class="slider-paging slider-paging-' + i + ' ' + _className + '" data-page="' + i + '" aria-role="button"><em class="sr-only">1번째 슬라이드</em></a>';
-        }window.CP.exitedLoop(2);
+        }//window.CP.exitedLoop(2);
         _html += '</div>';
         base.$pagination.html(_html);
         base.$pager = base.$pagination.find('a');
@@ -1165,7 +1183,33 @@ $(function () {
     } });
 
 });
-    </script>
+    
+    /*MP3 Player*/
+    
+    document.getElementById("play").onclick = function() { 
+     document.getElementById('demo').play();
+}
+
+document.getElementById("pause").onclick = function() { 
+     document.getElementById('demo').pause();
+}
+    
+    
+    
+
+    </script>  
+  <script>
+    
+        $(function() {
+  $('.js-nav a, .js-connect').click(function(e) {
+    e.preventDefault();
+    $('body, html').animate({
+      scrollTop: $($.attr(this, 'href')).offset().top
+    }, 750);
+  });
+});
+    
+  </script>
 </head>
   
    
@@ -1192,16 +1236,14 @@ $(function () {
 
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right js-nav">
-            <li><a class="navbar-text" href="#home">TOP</a></li>
+            <li><a class="navbar-text" href="#home">HOME</a></li>
 
-            <li><a class="navbar-text" href="#about">MISSION</a></li>
-
-<!--             <li><a href="#services">Services</a></li>
-
-            <li><a href="#folio">Folio</a></li>
-
-            <li><a href="#testimonials">Testimonials</a>-->
+            <li><a class="navbar-text" href="#mission">MISSION</a></li>
             
+            <li><a class="navbar-text" href="#projects">PROJECTS</a></li>
+            
+<!--                         <li><a class="navbar-text" href="#news">NEWS</a></li> -->
+           
             </li> 
 
 <!--             <li><a href="#contact">Contact</a></li>
@@ -1214,10 +1256,11 @@ $(function () {
   </header>
 
   <section id="home" class="sec-main">
-    <h1 class="main-heading">Create Jobs</h1>
+    <h1 class="main-heading">
+環保工作 300NT plus / hr</h1>
   </section>
 
-  <section id="about" class="sec-about">
+  <section id="mission" class="sec-about">
     <div class="container">
       <h1 class="mission-title">MISSION</h1>
 
@@ -1225,13 +1268,29 @@ $(function () {
 
       <div class="row">
         <div class="col-sm-6 col-sm-offset-3">
-          <p class="mission-statement"> Tree planting. Trash collection. Teaching Music. Vegetarian Food. Home farming. Coding for beginners. 
+          <p class="mission-statement"> Tree planting. Trash collection. Teaching Music. Vegetarian Food. Home farming. Coding for beginners. <br><br>
+          <p class="work-fixing-earth">work_fixing_earth</p>
            </p>
+      <!--  <section>
+  <header>
+    <div class='left'>
+      <h1 class="rec-name">
+修复地球</h1>
+      <h2></h2>
+      <h2 class="rec-subtitle"></h2>
+    </div>
+    <div class='right'>
+    <audio id="demo" src="http://www.woo55.pk/adata/10050/14%20Come%20Thru%20-%20(www.SongsLover.pk).mp3"></audio>
+    <button id='play'></button>
+    <button id='pause'></button>
+    </div>
+  </header>
+</section> -->
         </div>
       </div>
     </div>
   </section>
-  <section id="services" class="sec-services">
+  <section id="projects" class="sec-services">
     <div class="container">
 </div>
     <div id="slider" class="js-base-slider slider-container">
@@ -1417,3 +1476,8 @@ TRY TO TAKE OUT LAST SECTION
 
 -->
     </div>
+    
+    
+    </body>
+
+</html>
