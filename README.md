@@ -28,11 +28,13 @@ Then, add a link to the bookmark ("Useful Tips Section"), from within the same p
 
 <br><br>
 
-<h2 align="center">Mission: Create work planting trees, cleaning trash, putting out flowers... or anything you want.</h2>  <h3 align="center">
+<h2 align="center">Mission: Create work planting trees, cleaning trash, learning music... or anything else you want.</h2>  <h3 align="center">
 
 To start raising money now please follow our quickstart guide Kalki Quickstart
 
 # Medium Articles
+
+For now our main articles are on Medium. 
 
 [Letter to donors](https://medium.com/@frodonomics/kalki-letter-to-donors-986f48c311f1)
 
