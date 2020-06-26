@@ -8,6 +8,8 @@
 
 Kalki is an open source app to help people raise their first 10,000TWD. 
 
+The latest version is hereL
+
 ## Version Control
 
 We have some codepens to share. Take them, they're all open source. 
