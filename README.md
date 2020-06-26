@@ -1,18 +1,17 @@
+# Kalki is an open source project.
+
+## Raising your first 10,000TWD. 
+
+# Latest Codepens
+
+## Single Project display. 
+
+### June 26th, Friday. 11:48. 0.1. Wine
+
+https://codepen.io/Teeke/pen/KKVqVBq
+https://codepen.io/Teeke/live/KKVqVBq
 
 
-<!-- TODO LIST
-
-- ADD page jumps:
-
-<h2 id="tips">Useful Tips Section</h2>
-Then, add a link to the bookmark ("Useful Tips Section"), from within the same page:
-
-<a href="#tips">Visit the Useful Tips Section</a>
-
-
-
-
--->
 
 
 
