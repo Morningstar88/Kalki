@@ -1,3 +1,11 @@
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+<h1 align="center"> Kalki: Creating Work</h1>
+
+<p align="center">
+<img src="https://i.imgur.com/cAgNsHV.jpg" height="400vh" width="auto">
+</p>
+
 # Kalki is an open source project.
 
 ## Raising your first 10,000TWD. 
@@ -35,13 +43,9 @@ https://codepen.io/Teeke/live/KKVqVBq
 
 
 
-<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
-<h1 align="center"> Kalki: Creating Work</h1>
 
-<p align="center">
-<img src="https://i.imgur.com/cAgNsHV.jpg" height="400vh" width="auto">
-</p>
+
 
 <br><br>
 
