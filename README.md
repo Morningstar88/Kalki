@@ -2,9 +2,16 @@
 
 ## Raising your first 10,000TWD. 
 
-# Latest Codepens
+# Latest Codepens + Projects
 
-## Single Project display. 
+## Main Kalki/Chen Site
+
+## KALKI/CHEN 0.1 DEVELOPMENT. Saturday 27th 0:13am | 0.1 | First Commit. 
+
+https://codepen.io/Teeke/project/editor/AVrwaJ
+https://codepen.io/Teeke/project/live/AVrwaJ
+
+## Single Project Display. Alvina Hsieh.
 
 ### June 27th, Saturday 12:06 0.11 Wine | Alvina Hsieh 
 
