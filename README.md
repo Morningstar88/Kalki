@@ -6,7 +6,18 @@
 
 ## Single Project display. 
 
-### June 26th, Friday. 11:48. 0.1. Wine
+### June 27th, Saturday 12:06 0.11 Wine | Alvina Hsieh 
+
+####
+
+#### Add Chatra. Remove project boxes. 
+
+https://codepen.io/Teeke/pen/abdymrj
+https://codepen.io/Teeke/live/abdymrj
+
+### June 26th, Friday. 11:48. 0.1. Wine | Alvina Hsieh
+
+#### First Commit
 
 https://codepen.io/Teeke/pen/KKVqVBq
 https://codepen.io/Teeke/live/KKVqVBq
