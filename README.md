@@ -6,11 +6,13 @@
 <img src="https://i.imgur.com/cAgNsHV.jpg" height="400vh" width="auto">
 </p>
 
-# Kalki is an open source project.
+Kalki is an open source app to help people raise their first 10,000TWD. 
 
-## Raising your first 10,000TWD. 
+## Version Control
 
-# Latest Codepens + Projects
+We have some codepens to share. Take them, they're all open source. 
+
+### Latest Codepens + Projects
 
 ## Main Kalki/Chen Site
 
