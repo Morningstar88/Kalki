@@ -1,6 +1,6 @@
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
-<h1 align="center"> Kalki: #workfixingearth</h1>
+<h1 align="center"> Kalki</h1>
 
 <h3 align="center">#workfixingearth</h3>
 
