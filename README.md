@@ -14,7 +14,7 @@ The lastest build is here, as a codepen project:
 
 https://codepen.io/Teeke/project/editor/XaLyOk
 
-If you wish to help, please check the issues. We want to keep this version as a codepen project. This will halp non-tech people make their own fork. 
+If you wish to help, please check the issues. We want to keep this version as a three file codepen project. This will halp non-tech people make their own fork. 
 
 
 
