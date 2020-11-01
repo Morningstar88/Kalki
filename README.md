@@ -10,6 +10,12 @@
 
 Kalki is an open source app to help people raise micro-donations. We want to help people raise money to clean trash in beauty spots, plant trees, and plant flowers. 
 
+The lastest build is here, as a codepen project:
+
+https://codepen.io/Teeke/project/editor/XaLyOk
+
+If you wish to help, please check the issues. We want to keep this version as a codepen project. This will halp non-tech people make their own fork. 
+
 
 
  
