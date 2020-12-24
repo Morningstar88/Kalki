@@ -1,40 +1,750 @@
-<!DOCTYPE html>
-<html lang="en">
+><!DOCTYPE html>
+<html>
+
 <head>
-   
-  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <title>K</title>
+  <!-- CSS LIBRARIES-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <!-- LOAD JQUERY FIRST -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://www.goat1000.com/jquery.tagcanvas.min.js"></script>
+
+  <!-- ARE THESE TWO TAKEN CARE OF IN A BUNDLE? 
+WE MAYBE NEED THEM FOR THE POPUP! DON'T DELETE THIS YET.
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+ <!-- THESE THREE TAKEN CARE OF? -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.3/vue.min.js"></script>
+
+  <style>
+    body {
+      padding: 10px;
+      background-color: #fefefe;
+      color: #dedede;
+      font-family: 'Abril Fatface' !important;
+      font-size: 18px;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+
+    }
+
+    /*
+  Alt font families: Roboto and Open Sans Best.
+  
+font-family: 'Crimson Text', serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
 
   
-  <!--  Meta  -->
-  <meta charset="UTF-8" />
-  <title>Kalki</title>
+  /*
   
-  <!--  Styles  -->
-  <link rel="stylesheet" href="styles/index.processed.css">
+  Modals
+  
+  */
+
+    .button-container {
+      display: flex;
+      display: inline-block;
+      /*ESSENTIAL FOR VERTICAL ALIGNMENT*/
+      position: absolute;
+      margin-top: -24em;
+      flex-direction: row;
+
+    }
+
+    .btn {
+      display: flex;
+      background-image: linear-gradient(to bottom right, #770236, #5a0626);
+      color: #fefefe;
+      font-family: 'Josefin Sans';
+      font-weight: 600;
+      text-align: center;
+      display: inline-block;
+      height: 3.5em;
+      width: 5em;
+      border: none;
+      border-radius: 20px 2px 20px 2px;
+      cursor: crosshair;
+      justify-content: flex-end;
+      margin: 6px;
+    }
+
+    .side-btn-1 {
+      display: flex;
+      background-color: rgba(90, 6, 38, 0.3) !important;
+      color: #fefefe;
+      display: inline-block;
+    }
+
+    .side-btn-2 {
+      background-image: linear-gradient(to bottom right, #008080, #006060, #003320, #004430);
+      color: #fefefe;
+      display: inline-block;
+
+    }
+
+    .side-btn-3 {
+      background-image: linear-gradient(to bottom right, #20576e, #12313f);
+
+    }
+
+
+    /* Main */
+
+    h1 {
+      font-size: 136px;
+      letter-spacing: -1px;
+      font-family: 'Josefin Sans';
+    }
+
+    #myCanvas {
+      font-family: 'Abril Fatface' !important;
+    }
+
+    /* 1 */
+    a {
+      color: #161616;
+      text-shadow: 0 0 1px #333;
+      font-size: 26px;
+      letter-spacing: 1px;
+      font-family: 'Josefin Sans';
+      font-weight: 400;
+    }
+
+    a:hover {
+      color: #004345;
+      font-variant: bold;
+    }
+
+
+    /* 2 */
+    .site-text {
+      text-indent: 8px;
+      color: #191919;
+      font-size: 19px;
+      text-shadow: 0 0 1px #222;
+      font-family: 'Josefin Sans';
+      font-weight: 300;
+
+    }
+
+    /* 3 */
+    .url {
+      color: #7a0646;
+      /*text-shadow: 0 0 1px #0060af;*/
+      text-indent: 4px;
+      font-size: 19px;
+      font-family: 'Josefin Sans';
+      letter-spacing: 1px;
+      font-weight: 700;
+
+      /*   letter-spacing: 1px; */
+    }
+
+    [v-cloak] {
+      display: none;
+    }
+
+    div.highlight {
+      display: inline;
+      box-shadow: 0 0 0.5em rgba(10, 120, 200, 0.2);
+      padding: 0.125em;
+      border-radius: 0.4em;
+    }
+
+    .btn {
+      background-color: #007070;
+    }
+
+    #txtQuery {
+      width: 80%;
+       !important;
+    }
+
+    iframe {
+      display: block;
+      align: center;
+    }
+
+    .project-link a {
+      font-size: 37px;
+      color: #fefefe;
+       !important;
+      letter-spacing: -2px;
+      font-weight: 200;
+      text-indent: 90px;
+    }
+
+    .project-link a:hover {
+      color: #00a1a1;
+       !important;
+      letter-spacing: -2px;
+      font-weight: 200;
+      text-indent: 20px;
+    }
+
+    .knockout {
+      font-family: sans-serif;
+      font-size: 100px;
+      font-weight: bold;
+      letter-spacing: -6px;
+      background: url(https://assets.codepen.io/577362/black-curve.jpeg);
+      background-size: 60%;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+    }
+
+    #tag-container {
+      display: flex;
+      display: inline block;
+      position: relative;
+      margin-left: -250px;
+      font-size: 2px !important;
+    }
+
+    .modal-backdrop {
+      background-color: #001144;
+    }
+
+
+
+    ::placeholder {
+      color: #222 !important;
+    }
+
+    .form-control::-webkit-input-placeholder {
+      color: #004060 !important;
+      font-weight: 600 !important;
+    }
+
+    .input-form {
+      max-width: 80%;
+      height: 50px;
+      font-weight: 800;
+      font-family: 'Josefin Sans';
+      font-size: 23px;
+      border-radius: 20px;
+      margin-left: 7px;
+    }
+
+    input:focus {
+      background-color: teal;
+    }
+
+
+    .lead {
+      color: #008080 !important;
+    }
+
+    #code {
+      color: #008080 !important;
+    }
+
+    .search {
+      color: #008080 !important;
+    }
+  </style>
+  <script>
+    //   body {
+    //   padding: 10px;
+    //   background-color: #121212;
+    //   color: #fefefe;
+    //   font-family: 'Josefin Sans';
+    //   font-size: 21px;
+    // }
+    [v - cloak] {
+      display: none;
+    }
+    div.highlight {
+        display: inline;
+        box - shadow: 0 0 0.5 em rgba(10, 120, 200, 0.2);
+        padding: 0.125 em;
+        border - radius: 0.4 em;
+        font - weight: 200;
+      }
+      .btn {
+        background - image: linear - gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2) 49 % , rgba(0, 0, 0, 0.15) 51 % , rgba(0, 0, 0, 0.05));
+        background - repeat: repeat - x;
+      }
+    h1 {
+      font - size: 140 px;
+      letter - spacing: -18 px;
+    }
+    a {
+      color: #11aadd;
+  font-size: 26px;
+  letter-spacing: 1px;
+}
+
+a:hover {
+  color: # 31 ddff;
+    }
+    .site - text {
+        text - indent: 6 px;
+        font - weight: 100;
+      }
+      .url {
+        color: #00bb88;
+  text-indent: 2px;
+  font-size: 19px;
+  font-weight: 400;
+  /*   letter-spacing: 1px; */
+}
+  
+  /*
+  # ff8c00 *
+          /
+        #txtQuery {
+          width: 40 % ;!important;
+        }::placeholder {
+          color: #222 !important;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: # 656565!important;
+          font - weight: 600!important;
+        }
+        .input - form {
+          max - width: 50 % ;
+          height: 40 px;
+          font - weight: 800;
+          font - size: 23 px;
+          border - radius: 20 px;
+          margin - left: 7 px;
+        }
+        .code {
+          color: #008080;
+}
+
+.lead {
+  color: # 008080!important;
+        }
+        .code {
+          color: #008080 !important;
+}
+
+.search {
+      color: # 008080!important;
+        }
+        // .knockout {
+        //   background: url("https://assets.codepen.io/577362/black-stairwell.jpeg")1%;
+        // }
+        <
+        /style> <
+        script >
+  </script>
+
 </head>
-<body>
-  
-<div id="vue">
-	<nav-bar :menu-open="menuOpen" @toggle="toggleMenu">
-		<nav-btn v-for="location in locations" :loc="location" :current-view="view" @change-view = "changeView"></nav-btn>
-	</nav-bar>
-	<main-wrapper>
-		<h1 slot="heading">{{view}}</h1>
-			</main-wrapper>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface:wght@300;400&family=Crimson+Text:ital@0;1&family=Josefin+Sans:wght@200;300;500;600;700&family=Lora&family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300&family=Poiret+One&family=Raleway:wght@200;300&family=Roboto:wght@100;300;500&family=Source+Sans+Pro:wght@200;300&display=swap" rel="stylesheet">
+
+<h1 class="knockout">K</h1>
+<!-- TAG CLOUD -->
+<div id="tag-container">
+  <canvas width="1200" height="550" id="myCanvas">
+    <p>Anything in here will be replaced on browsers that support the canvas element</p>
+  </canvas>
 </div>
-  
+<div id="tags" style="font-size: 50%; font-family: 'Abril Fatface'">
+  <a href="#" style="font-size: 2.83ex">secret underground cities</a>
+  <a href="#" style="font-size: 3.61ex">pfizer</a>
+  <a href="#" style="font-size: 9.64ex">vaccine</a>
+  <a href="#" style="font-size: 4.47ex">trump</a>
+  <a href="#" style="font-size: 3.46ex">esoteric</a>
+  <a href="#" style="font-size: 12.32ex">台灣</a>
+  <a href="#" style="font-size: 3.74ex">crowdfunding</a>
+  <a href="#" style="font-size: 3.16ex">learn python</a>
+  <a href="#" style="font-size: 3.74ex">learn nodejs</a>
+  <a href="#" style="font-size: 3.16ex">learn javascript</a>
+  <a href="#" style="font-size: 8.36ex">vatican</a>
+  <a href="#" style="font-size: 4.36ex">corruption</a>
+  <a href="#" style="font-size: 3.32ex"></a>
+  <a href="#" style="font-size: 10.68ex"></a>
+  <a href="#" style="font-size: 4.69ex">image</a>
+  <a href="#" style="font-size: 4.8ex">javascript</a>
+  <a href="#" style="font-size: 5.47ex">art</a>
+  <a href="#" style="font-size: 2.65ex">gnosticism</a>
+  <a href="#" style="font-size: 8.77ex">essene</a>
+  <a href="#" style="font-size: 2.65ex">buddhism</a>
+  <a href="#" style="font-size: 5.92ex">health</a>
+  <a href="#" style="font-size: 3.32ex">open source software</a>
+  <a href="#" style="font-size: 11.23ex">fundraising</a> <!-- ORIG 13.23-->
+  <a href="#" style="font-size: 2.83ex">microfinance</a>
+  <a href="#" style="font-size: 4.58ex">codepen</a>
+  <a href="#" style="font-size: 3.32ex">jsfiddle</a>
+  <a href="#" style="font-size: 2.65ex">script</a>
+  <a href="#" style="font-size: 13ex">astrology</a>
+  <a href="#" style="font-size: 4.47ex">佛教</a>
+  <a href="#" style="font-size: 12.44ex">
+    語言交流</a>
+  <a href="#" style="font-size: 2.65ex">indonesia</a>
+  <a href="#" style="font-size: 3.46ex">orion</a>
+  <a href="#" style="font-size: 2.65ex">旅行</a>
+  <a href="#" style="font-size: 3.16ex">天氣預報</a>
+</div>
+
+<!--TAG CLOUD END -->
+
+<div class="button-container">
+  <button id="top-btn" class="btn side-btn-1">新</button>
+  <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <iframe src="https://www.kickstarter.com/projects/samirwin/art-in-agriculture-15-photos-from-10-years-of-ag-j/widget/card.html?v=2" width="220" height="420" frameborder="0" scrolling="no"></iframe>
+      </div>
+    </div>
+  </div>
+  <br>
+  <button id="mid-btn" class="btn side-btn-2">新聞</button>
+  <br>
+  <button id="low-btn" class="btn side-btn-3">搜索</button>
+</div>
+<br><br>
+
+<div id="vueSearch" v-cloak>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <!--       <label class="input-group-text" for="txtQuery">~</label> -->
+    </div>
+    <input type="text" id="txtQuery" v-model="search" class="form-control input-form" placeholder="Search Earth...">
+  </div>
+
   <!--
+ <h1>jQuery Autocomplete</h1>
+<input type="text" name="country" id="autocomplete" placeholder="Type countries here"/>
 
-    Wow! What do you want to build?
 
-    You have so many possibilities right now... Looking for something to kick off?
-    How about a simple folio page to show off everything you're going to make!
-   
-  -->
-  
-  <!-- Scripts -->
-  <script src="scripts/index.js"></script>
+-->
+
+  <div v-for="(link, linkIndex) in results" v-bind:style="linkIndex + 1 < results.length ? 'margin-bottom: 1em;' : ''">
+    <div style="font-size: 1.25em;"><a v-bind:href="link.url" target="_blank" v-html="link.title"></a></div>
+    <div class="site-text" v-html="link.description"></div>
+    <div class="url">{{ link.url }}</div>
+  </div>
+
+  <div v-if="error" class="alert alert-danger text-center lead" v-html="error.replace(/`([^`]+)`/g, '<code>$1</code>')">{{error}}</div>
+  <div v-else-if="loading" class="text-center lead">Loading search results from Google Sheets...</div>
+  <div v-else-if="!results.length" class="text-center lead">
+    No results were found for <code>{{ search }}</code>.
+  </div>
+
+  <div class="text-center">
+    <div class="d-inline-block">
+      <div class="input-group mb-3" v-if="pages.length">
+        <br><br> <br><br>
+        <div class="input-group-prepend">
+          <!--             <span class="input-group-text" for="txtQuery">Pages</span> -->
+        </div>
+        <div class="input-group-append">
+          <button v-for="page in pages" v-bind:class="'btn btn-outline-secondary' + (page.number == pageNumber ? ' active' : '')" type="button" style="float: initial;" v-on:click="changePage(page.number)" v-bind:title="page.caption">{{ page.text }}</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function() {
+    if (!$('#myCanvas').tagcanvas({
+        //textColour: '#ff0000',
+        outlineColour: '#5a0626',
+        reverse: true,
+        depth: 0.9,
+        maxSpeed: 0.035,
+        textFont: null,
+        fontFamily: 'Abril Fatface',
+        textColour: null,
+        weightMode: 'both',
+        weight: true,
+        weightGradient: {
+          0: '#008080', // red
+          0.33: '#004040', // yellow
+          0.66: '#002050', // green
+          1: '#004070' // blue
+        }
+      }, 'tags')) {
+      // something went wrong, hide the canvas container
+      $('#tag-container').hide();
+    }
+  });
+</script>
+
+<script>
+  $(document).ready(function() {
+    $("#top-btn").hover(function() {
+      $('.modal').modal({
+        show: true
+      });
+    });
+  });
+</script>
+<!-- BUNDLE BREAKS THE POPUP. LOADING SEPARA -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue-strap/1.1.40/vue-strap.min.js"></script>
+
+<!-- TRYING TO LOAD VUE RIGHT AT THE END -->
+
+<script>
+  Vue.component("typeahead", VueStrap.typeahead);
+  var app = new Vue({
+    el: "#app",
+    data: {
+      value: null,
+      options: ["foo", "bar", "baz"]
+    }
+  })
+  // JAKE NEWS https://docs.google.com/spreadsheets/d/1WUzfGeyOMVVOb8tbYLqHTrAk7Ii2p6l58EXG-kcgOcY/edit#gid=0
+  $(function() {
+    var GSHEET_JSON_URL = 'https://spreadsheets.google.com/feeds/list/1WUzfGeyOMVVOb8tbYLqHTrAk7Ii2p6l58EXG-kcgOcY/1/public/values?alt=json';
+    var vueSearch = new Vue({
+      el: '#vueSearch',
+      data: {
+        search: '',
+        links: [],
+        pages: [],
+        pageNumber: 1,
+        results: [],
+        perPage: 10,
+        loading: true,
+        error: null
+      },
+      methods: {
+        changePage: function(number) {
+          location.href = '#vueSearch';
+          this.pageNumber = number;
+          this.updateResults();
+        },
+        updateResults: function() {
+          var self = this;
+          // Clear all previous paging data
+          self.pages.splice(0, Infinity);
+          // Get an array of search terms as regexes
+          var searchTerms = [];
+          self.search.replace(
+            /([+\-])?(?:"([^"]+)"|(\/((?:[^\/]|\\.)+)\/(i?)|[\S]+))/g,
+            function(m, must, quoted, nonQuoted, rgxText, rgxOpts) {
+              var realRgxText = rgxText;
+              if (rgxText) {
+                try {
+                  new RegExp(rgxText);
+                } catch (e) {
+                  rgxText = null;
+                }
+              }
+              rgxText = rgxText || (
+                ((quoted ? /^\b/.test(quoted) : !realRgxText) ? '\\b' : '') +
+                YourJS.quoteRegExp(quoted || nonQuoted) +
+                ((quoted && /\b$/.test(quoted)) ? '\\b' : '')
+              );
+              searchTerms.push({
+                type: realRgxText ? 'regex' : 'string',
+                rgx: new RegExp(rgxText, (realRgxText ? rgxOpts : 'i') + 'g'),
+                must: must == '+' ?
+                  true :
+                  must == '-' ?
+                  false :
+                  undefined
+              });
+            }
+          );
+          // Get the resulting list of links based on the scores.
+          var results = self.links
+            .reduce(function(scores, link, linkIndex) {
+              var score = searchTerms.reduce(function(score, searchTerm) {
+                if (score !== false) {
+                  var matchesTitle = (link.title.match(searchTerm.rgx) || '').length;
+                  var matchesURL = (link.url.match(searchTerm.rgx) || '').length;
+                  var matchesDescr = ((link.description || '').match(searchTerm.rgx) || '').length;
+                  var matchesKeywords = ((link.keywords || '').match(searchTerm.rgx) || '').length;
+                  var matchesAny = !!(matchesTitle || matchesURL || matchesDescr || matchesKeywords);
+                  return searchTerm.must !== !matchesAny ?
+                    searchTerm.must !== false ?
+                    matchesTitle * 8 + matchesURL * 4 + matchesDescr * 2 + matchesKeywords * 1 :
+                    1 :
+                    false;
+                }
+                return score;
+              }, searchTerms.length ? 0 : 1);
+              if (score) {
+                scores.push({
+                  link: link,
+                  score: score,
+                  index: linkIndex
+                });
+              }
+              return scores;
+            }, [])
+            .sort(function(a, b) {
+              return (b.score - a.score) || (b.index - a.index);
+            })
+            .map(function(score) {
+              return score.link;
+            });
+          // Setup the paging data
+          var pageCount = Math.max(1, Math.ceil(results.length / self.perPage));
+          var pageNumber = self.pageNumber = YourJS.clamp(self.pageNumber, 1, pageCount);
+          if (pageNumber > 1) {
+            self.pages.push(self.getPageObject(1, results));
+          }
+          if (pageNumber > 2) {
+            self.pages.push(self.getPageObject(pageNumber - 1, results));
+          }
+          self.pages.push(self.getPageObject(pageNumber, results));
+          if (pageNumber + 1 < pageCount) {
+            self.pages.push(self.getPageObject(pageNumber + 1, results));
+          }
+          if (pageNumber < pageCount) {
+            self.pages.push(self.getPageObject(pageCount, results));
+          }
+          // Set self.results to only the results that are shown in the current page.
+          self.results = results.slice((pageNumber - 1) * self.perPage, pageNumber * self.perPage).map(function(link) {
+            link = jQuery.extend({}, link);
+            return {
+              title: self.markTerms(link.title, searchTerms),
+              description: self.markTerms(link.description, searchTerms),
+              url: link.url
+            };
+          });
+        },
+        markTerms: function(strIn, terms) {
+          return terms
+            .reduce(function(str, term) {
+              return (YourJS.matchAll(strIn, term.rgx) || []).reduce(function(str, termMatch) {
+                return str.replace(
+                  new RegExp('((?:[\\x01\\x02]*[^\\x01\\x02]){' + termMatch.index + '})((?:[\\x01\\x02]*[^\\x01\\x02]){' + (termMatch[0].length) + '})'),
+                  '$1\x01$2\x02'
+                );
+              }, str);
+            }, strIn)
+            .replace(/\x01/g, '<div class="highlight">').replace(/\x02/g, '</div>');
+        },
+        getPageObject: function(pageNumber, results) {
+          return {
+            text: pageNumber,
+            number: pageNumber,
+            caption: Math.min(results.length, 1 + (pageNumber - 1) * this.perPage) + ' to ' + Math.min(results.length, pageNumber * this.perPage)
+          };
+        }
+      },
+      watch: {
+        search: function(newValue, oldValue) {
+          this.pageNumber = 1;
+          this.updateResults();
+        }
+      },
+      mounted: function() {
+        $.ajax({
+          dataType: "json",
+          url: GSHEET_JSON_URL + '&cache-buster=' + Math.random(),
+          success: function(data) {
+            if (data && data.feed && data.feed.entry && data.feed.entry[0]) {
+              var missing = ['url', 'title', 'description', 'keywords'].filter(function(name) {
+                return !data.feed.entry[0]['gsx$' + name];
+              });
+              if (missing[0]) {
+                vueSearch.error = 'You must add the "`' + missing.join('`", "`').replace(/, (?!.*,)/, ', and ') + '`" field' + (missing[1] ? 's' : '') + '.';
+                return;
+              }
+            } else {
+              vueSearch.error = 'The specified GSHEET_JSON_URL is invalid:<br>`' + GSHEET_JSON_URL + '`';
+              return;
+            }
+            data.feed.entry.forEach(function(entry) {
+              vueSearch.links.push({
+                url: entry.gsx$url.$t,
+                title: entry.gsx$title.$t,
+                description: entry.gsx$description.$t,
+                keywords: entry.gsx$keywords.$t
+              });
+            });
+            vueSearch.loading = false;
+            vueSearch.updateResults();
+          },
+          error: function() {
+            vueSearch.error = 'The specified GSHEET_JSON_URL does not contain JSON:<br>`' + GSHEET_JSON_URL + '`';
+            vueSearch.loading = false;
+          }
+        });
+        // Set focus to search box
+        $('#txtQuery').select();
+      }
+    });
+  });
+  /*
+   YourJS - Your Very Own JS Library
+   http://yourjs.com
+
+   Copyright (c) 2015-2017 Christopher West
+   Licensed under the MIT license.
+  */
+  (function(h, c, k) {
+    function l(a, b) {
+      return function() {
+        return a[b].apply(a, arguments)
+      }
+    }
+    var g = this,
+      m;
+    (function(a, b) {
+      m = function() {
+        b || (b = 1, g[c] = a);
+        return d
+      }
+    })(g[c]);
+    var n = l([].slice, "call");
+    var d = {
+      alias: l,
+      clamp: function(a, b, f) {
+        return a < b ? b : a > f ? f : a
+      },
+      info: function() {
+        return {
+          name: c,
+          version: h,
+          toString: d.toString
+        }
+      },
+      matchAll: function(a, b, f) {
+        var c = 0,
+          d = [];
+        a.replace(b, function(e) {
+          e = n(arguments, 0, -1);
+          e.index = e.pop();
+          e.input = a;
+          e.source = b;
+          f && (e = f(e, ++c));
+          e !== k && d.push(e)
+        });
+        return d.length ? d : null
+      },
+      noConflict: m,
+      quoteRegExp: function(a,
+        b) {
+        var c = a.replace(/[[\](){}.+*^$|\\?-]/g, "\\$&");
+        return "" === b || b ? new RegExp(c, !0 === b ? "" : b) : c
+      },
+      slice: n,
+      toString: function() {
+        return "YourJS v" + h + " (" + c + ")"
+      }
+    };
+    [].forEach(function(a) {
+      a()
+    });
+    "undefined" !== typeof exports ? ("undefined" !== typeof module && module.exports && (exports = module.exports = d), (exports[c] = d)[c] = k) : g[c] = d
+  })("2.2.0", "YourJS");
+</script>
+
 </body>
+
 </html>
