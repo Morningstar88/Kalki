@@ -12,15 +12,16 @@
 
 # Mission
 
-Our aim is to be the fastest environmental crowdfunding + green jobs aggregator in the East. Kickstarter and StartSomeGood have already done a fantastic job starting the crowdfunding industry. These two sites host projects and take payments. Fiverr and 104 are good athelping people find work. To build on their excellent initiative, we need to localize, specialize, and start at the micro-economy level. 
+Our aim is to be the fastest environmental crowdfunding + green jobs aggregator in the East. Kickstarter and StartSomeGood have already done a fantastic job starting the crowdfunding industry. These two sites host projects and take payments. Fiverr and 104 are good at helping people find work. What next? To build on their initiative, we need to localize, specialize, and start at the micro-economy level. 
 
 Why are we building Kalki? 
 
-- **Start small** You can fundraise less than 100USD. Even 20USD is fine.)
+- **Start small** You can fundraise less than 100USD. Even 20USD is fine. If you want a pair of drumsticks, or money to plant 3 trees, we'll help you. 
 - **Cleaning the Earth** We want to pay people 300TWD/per hour to clean beaches, pick up plastic bottles, plant trees, and fix the environment. 
 - **Localize*** We'll give you the software to run a Kalki node in your own town. It's totally free. 
-- **Decentralized Open Source Network**. Take our software and do anything you want with it. The only limit is your imagination. 
-- **Increasing code literacy** (to use Kalki, you need some HTML, CSS and coding skills). 
+- **Open Source**. Take our software and do anything you want with it. The only limit is your imagination. 
+- **Decentralized Network** Decentralized is not just a hispter buzzword. If you use our software, we don't have any control over you. Go crazy. Hopefully over 5 years, we can build a network of a few dozen, or a few hundred nodes. 
+- **Increasing code literacy** (to use Kalki, you need some HTML, CSS and coding skills). If you want to learn coding and start to raise money, maybe we can help.
 
 ## Open Source Crowdfunding Network 
 
