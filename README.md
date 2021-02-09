@@ -12,7 +12,7 @@
 
 # Mission
 
-Our aim is to be the fastest environmental crowdfunding + green jobs aggregator in the East. Kickstarter and StartSomeGood have already done a fantastic job starting the crowdfunding industry. These two sites host projects and take payments. Fiverr and 104 are good at getting people work. To build on their excellent work, we need to localize, specialize, and start small. 
+Our aim is to be the fastest environmental crowdfunding + green jobs aggregator in the East. Kickstarter and StartSomeGood have already done a fantastic job starting the crowdfunding industry. These two sites host projects and take payments. Fiverr and 104 are good athelping people find work. To build on their excellent initiative, we need to localize, specialize, and start at the micro-economy level. 
 
 Why are we building Kalki? 
 
