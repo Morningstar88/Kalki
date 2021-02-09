@@ -27,15 +27,15 @@ Why are we building Kalki?
 
 Set up your own beautiful open source website in 15 minutes. Check out this example for Danshui, Taiwan:
 
-https://tamsui.surge.sh
+## https://tamsui.surge.sh
 
 We want to build an open source network of crowdfunding/job sites. We'll make lists of nodes here. 
 
-https://codepen.io/Teeke/live/eYBZPYo
+## https://codepen.io/Teeke/live/eYBZPYo
 
 The code is here. Please feel free to use it. 
 
-https://codepen.io/Teeke/pen/eYBZPYo
+## https://codepen.io/Teeke/pen/eYBZPYo
 
 
 ## 1. One Click Copy Money Raising Portal
@@ -44,13 +44,13 @@ You can take this web-design and do anything you want with it.
 
 The source code is free online. Check it out here: 
 
-https://codepen.io/Teeke/pen/eYBJZwv
+## https://codepen.io/Teeke/pen/eYBJZwv
 
 ## Open Source Designs
 
 This was the original design. We changed the font to Josefin Sans
 
-https://codepen.io/paulnoble/pen/yVyQxv
+## https://codepen.io/paulnoble/pen/yVyQxv
 
 <p align="center">
 <img src="http://i.imgur.com/v6w17QK.jpg">
