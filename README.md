@@ -29,11 +29,19 @@ Set up your own beautiful open source website in 15 minutes. Check out this exam
 
 ## https://tamsui.surge.sh
 
+<hr>
+
+<br><br>
+
 We want to build an open source network of crowdfunding/job sites. We'll make lists of nodes here. 
 
 ## https://codepen.io/Teeke/live/eYBZPYo
 
+<br><br>
+
 The code is here. Please feel free to use it. 
+
+<hr>
 
 ## https://codepen.io/Teeke/pen/eYBZPYo
 
@@ -65,19 +73,8 @@ https://docs.google.com/document/d/1qit7KMXd2NiZInHSVosn4OzftgiedFe8Zvc6p4PU1ts/
 
 So you can make your own Twitter clone. 
 
-*
 
 
-
-*
-
-We have a long term roadmap here:
-
-Github here:
-
-https://github.com/Microflow/20-Apps-to-Help-Earth
-
-*
 
 We work in a small cafe in Zhongxiao Fuxing. Get out at Exit 3 and find Aztec internet. 
 
