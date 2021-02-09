@@ -4,7 +4,7 @@
 
 <h1 align="center"> :earth_asia:    Kalki    :earth_africa: </h1>
 
-### Work Fixing Earth
+<h3 align="center">Work Fixing Earth</h3>
 
 <p align="center">
 <img src="http://i.imgur.com/42bYJfQ.jpg">
@@ -12,20 +12,29 @@
 
 # Mission
 
-Our aim is to be the fastest  + jobs aggregator in the East. Kickstarter and StartSomeGood have already done a fantastic job starting the crowdfunding industry. They host projects and take payments. 
+Our aim is to be the fastest  + jobs aggregator in the East. Kickstarter and StartSomeGood have already done a fantastic job starting the crowdfunding industry. They host projects and take payments. Fiverr and 104 are good at getting people work.
 
-We'll help people: 
+Why are we building Kalki? 
 
 - Start small (less than 100USD)
 - Focus on clenaing the Earth.
 - Focus on localizing to your town.
-- Run software yourself. 
+- Run software yourself.
+- Increasing code literacy (to use Kalki, you need some HTML, CSS and coding skills).
 
 ## Open Source Crowdfunding Network 
 
 Set up your own beautiful open source website in 15 minutes. Check out this example:
 
 https://tamsui.surge.sh
+
+We want to build an open source network of crowdfunding/job sites. 
+
+https://codepen.io/Teeke/live/eYBZPYo
+
+The code is here. Please feel free to use it. 
+
+https://codepen.io/Teeke/pen/eYBZPYo
 
 
 ## 1. One Click Copy Money Raising Portal
