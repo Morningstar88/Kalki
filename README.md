@@ -4,7 +4,7 @@
 
 <h1 align="center"> :earth_asia:    Kalki    :earth_africa: </h1>
 
-<h3 align="center">Work Fixing Earth</h3>
+<h2 align="center">Work Fixing Earth</h3>
 
 <p align="center">
 <img src="http://i.imgur.com/42bYJfQ.jpg">
@@ -12,23 +12,23 @@
 
 # Mission
 
-Our aim is to be the fastest  + jobs aggregator in the East. Kickstarter and StartSomeGood have already done a fantastic job starting the crowdfunding industry. They host projects and take payments. Fiverr and 104 are good at getting people work.
+Our aim is to be the fastest environmental crowdfunding + green jobs aggregator in the East. Kickstarter and StartSomeGood have already done a fantastic job starting the crowdfunding industry. These two sites host projects and take payments. Fiverr and 104 are good at getting people work. To build on their excellent work, we need to localize, specialize, and start small. 
 
 Why are we building Kalki? 
 
-- Start small (less than 100USD)
-- Focus on clenaing the Earth.
-- Focus on localizing to your town.
-- Run software yourself.
-- Increasing code literacy (to use Kalki, you need some HTML, CSS and coding skills).
+- **Start small** You can fundraise less than 100USD. Even 20USD is fine.)
+- **Cleaning the Earth** We want to pay people 300TWD/per hour to clean beaches, pick up plastic bottles, plant trees, and fix the environment. 
+- **Localize*** We'll give you the software to run a Kalki node in your own town. It's totally free. 
+- **Decentralized Open Source Network**. Take our software and do anything you want with it. The only limit is your imagination. 
+- **Increasing code literacy** (to use Kalki, you need some HTML, CSS and coding skills). 
 
 ## Open Source Crowdfunding Network 
 
-Set up your own beautiful open source website in 15 minutes. Check out this example:
+Set up your own beautiful open source website in 15 minutes. Check out this example for Danshui, Taiwan:
 
 https://tamsui.surge.sh
 
-We want to build an open source network of crowdfunding/job sites. 
+We want to build an open source network of crowdfunding/job sites. We'll make lists of nodes here. 
 
 https://codepen.io/Teeke/live/eYBZPYo
 
