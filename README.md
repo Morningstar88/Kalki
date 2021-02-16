@@ -13,6 +13,8 @@
 
 <h3 align="center"><i>
  
+  *<h3>We want to create part time work:</h3>*
+ 
 - Work picking up plastic bottles in Danshui, 250TWD/hour. 
  
  
@@ -21,6 +23,8 @@
 
 - Learn to build websites, 250TWD/hour.</i>
  </h3>
+ 
+
 
 # Mission
 
