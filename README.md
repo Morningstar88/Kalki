@@ -4,7 +4,7 @@
 
 <h1 align="center"> :earth_asia:    Kalki    :earth_africa: </h1>
 
-<h2 align="center">Work Fixing Earth</h3>
+<h1 align="center">Work Fixing Earth</h3>
 
 <p align="center">
 <img src="http://i.imgur.com/42bYJfQ.jpg">
@@ -13,7 +13,7 @@
 
 <h3 align="center"><i>
  
-  *<h3>We want to create part time work:</h3>*
+  *<h3>We want to create part time jobs:</h3>*
  
 - Work picking up plastic bottles in Danshui, 250TWD/hour. 
  
@@ -21,7 +21,7 @@
 - Work planting trees, 250TWD/hour.
 
 
-- Learn to build websites, 250TWD/hour.</i>
+- Learn to build websites/correct Chinese/play music, 250TWD/hour.</i>
  </h3>
  
 
