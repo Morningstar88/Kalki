@@ -10,8 +10,10 @@
 <img src="http://i.imgur.com/42bYJfQ.jpg">
 </p>
 
-
+<br><br><br>
 <h3 align="center"><i>
+ 
+ <br><br><br>
  
   *<h3>We want to create part time jobs:</h3>*
  
@@ -25,6 +27,11 @@
  </h3>
  
 
+<br><br><br>
+
+# [Test Site Now Live!](https://tamsui.surge.sh)
+<br><br><br>
+# [Open Source Template Here](https://codepen.io/Teeke/pen/eYBZPYo)
 
 # Mission
 
