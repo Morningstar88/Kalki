@@ -166,7 +166,7 @@ We’re learning how to use facebook ads. We want to attract investors.
 
 Kalki, move slowly and fix things. 
 
-:sunny: :sunny :sunny:
+:sunny: :sunny: :sunny:
 
 
 
