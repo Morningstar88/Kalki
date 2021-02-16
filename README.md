@@ -1,3 +1,6 @@
+ 
+
+https://placehold.it/150/ffffff/ff0000?text=hello
 
 <br>
 <br>
@@ -177,9 +180,17 @@ Kalki, move slowly and fix things.
 
 
 
+```
 
+NOTES
 
+Kinda works
 
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=hello)
+- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=how) 
+- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=are) 
+
+```
 
 
 
