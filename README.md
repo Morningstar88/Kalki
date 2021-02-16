@@ -10,6 +10,18 @@
 <img src="http://i.imgur.com/42bYJfQ.jpg">
 </p>
 
+
+<h3 align="center"><i>
+ 
+- Work picking up plastic bottles in Danshui, 250TWD/hour. 
+ 
+ 
+- Work planting trees, 250TWD/hour.
+
+
+- Learn to build websites, 250TWD/hour.</i>
+ </h3>
+
 # Mission
 
 Our aim is to be the fastest environmental crowdfunding + green jobs aggregator in the East. Kickstarter and StartSomeGood have already done a fantastic job starting the crowdfunding industry. These two sites host projects and take payments. Fiverr and 104 are good at helping people find work. What next? To build on their initiative, we need to localize, specialize, and start at the micro-economy level. 
