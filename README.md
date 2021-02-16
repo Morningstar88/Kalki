@@ -16,14 +16,16 @@
  <br><br><br>
  
   *<h3>We want to create part time jobs:</h3>*
- 
+*<h3> 我们想创造兼职工作</h3>*
+
 - Work picking up plastic bottles in Danshui, 250TWD/hour. 
- 
+- 在淡水捡拾塑料瓶，每小时250TWD。
  
 - Work planting trees, 250TWD/hour.
-
+- 植树工作，每小时250TWD。
 
 - Learn to build websites/correct Chinese/play music, 250TWD/hour.</i>
+- 学习建立网站/正确的中文/播放音乐，每小时250TWD。
  </h3>
  
 
@@ -49,6 +51,7 @@ Why are we building Kalki?
 ## Open Source Crowdfunding Network 
 
 Set up your own beautiful open source website in 15 minutes. Check out this example for Danshui, Taiwan:
+在15分钟内建立您自己的漂亮开源网站。查看台湾淡水的以下示例：
 
 ## https://tamsui.surge.sh
 
@@ -169,7 +172,7 @@ Kalki, move slowly and fix things.
 :sunny: :sunny: :sunny:
 
 
-
+<a><img src="http://dump.thecybershadow.net/6c736bfd11ded8cdc5e2bda009a6694a/colortext.svg"/></a>
 
 
  
