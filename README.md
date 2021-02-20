@@ -18,14 +18,12 @@
   *<h3>We want to create part time jobs:</h3>*
 *<h3> 我们想创造兼职工作</h3>*
 
-- Work picking up plastic bottles in Danshui, 250TWD/hour. 
-- 在淡水捡拾塑料瓶，每小时250TWD。
+- Work picking up plastic bottles in Danshui, 250TWD/hour. 在淡水捡拾塑料瓶，每小时250TWD。
  
-- Work planting trees, 250TWD/hour.
-- 植树工作，每小时250TWD。
+- Work planting trees, 250TWD/hour. 植树工作，每小时250TWD。
 
-- Learn to build websites/correct Chinese/play music, 250TWD/hour.</i>
-- 学习建立网站/正确的中文/播放音乐，每小时250TWD。
+- Learn to build websites/correct Chinese/play music, 250TWD/hour. 学习建立网站/正确的中文/播放音乐，每小时250TWD。</i>
+
  </h3>
  
 
