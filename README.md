@@ -11,12 +11,12 @@
 </p>
 
 <br><br><br>
-<h3 align="center"><i>
+<hp align="center"><i>
  
  <br><br><br>
  
-  <h3>We want to create part time jobs:</h3>
-<h3> 我们想创造兼职工作</h3>
+  <p>We want to create part time jobs:</p>
+<p> 我们想创造兼职工作</p>
 
 - Work picking up plastic bottles in Danshui, 250TWD/hour. 在淡水捡拾塑料瓶，每小时250TWD。
  
@@ -24,7 +24,7 @@
 
 - Learn to build websites/correct Chinese/play music, 250TWD/hour. 学习建立网站/正确的中文/播放音乐，每小时250TWD。</i>
 
- </h3>
+ </p>
  
 
 <br><br><br>
