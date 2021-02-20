@@ -48,28 +48,18 @@ Why are we building Kalki?
 我们为什么要建造卡尔基？
 
 - **Start small** You can fundraise less than 100USD. Even 20USD is fine. If you want a pair of drumsticks, or money to plant 3 trees, we'll help you. 
-- 
-- **Cleaning the Earth** We want to pay people 300TWD/per hour to clean beaches, pick up plastic bottles, plant trees, and fix the environment. 
-- 
-- **Localize*** We'll give you the software to run a Kalki node in your own town. It's totally free. 
-- 
-- **Open Source**. Take our software and do anything you want with it. The only limit is your imagination. 
-- 
-- **Decentralized Network** Decentralized is not just a buzzword. If you use our software, we don't have any control over you. Go crazy. Hopefully over 5 years, we can build a network of a few dozen, or a few hundred nodes. 
-- 
-- **Increasing code literacy** (to use Kalki, you need some HTML, CSS and coding skills). If you want to learn coding and start to raise money, maybe we can help.
-
 -**从小规模开始**您可以筹款不到100美元。甚至20美元也可以。如果您想要一对鼓槌或金钱来种植三棵树，我们将为您提供帮助。
-
+- **Cleaning the Earth** We want to pay people 300TWD/per hour to clean beaches, pick up plastic bottles, plant trees, and fix the environment. 
 -**清洁地球**我们希望每小时向人们支付300TWD，以清洁海滩，捡起塑料瓶，栽种树木并修复环境。
-
+- **Localize*** We'll give you the software to run a Kalki node in your own town. It's totally free. 
 -**本地化***我们将为您提供在您自己的城镇中运行Kalki节点的软件。完全免费。
-
+- **Open Source**. Take our software and do anything you want with it. The only limit is your imagination. 
 -**开源**。使用我们的软件，并随心所欲地做任何事情。你的想象力是唯一的限制。
-
+- **Decentralized Network** Decentralized is not just a buzzword. If you use our software, we don't have any control over you. Go crazy. Hopefully over 5 years, we can build a network of a few dozen, or a few hundred nodes. 
 -**分散网络**分散不仅仅是一个流行词。如果您使用我们的软件，我们对您没有任何控制权。疯了。希望在5年内，我们可以建立一个由几十个或几百个节点组成的网络。
-
+- **Increasing code literacy** (to use Kalki, you need some HTML, CSS and coding skills). If you want to learn coding and start to raise money, maybe we can help.
 -**提高代码素养**（要使用Kalki，您需要一些HTML，CSS和编码技能）。如果您想学习编码并开始筹集资金，也许我们可以提供帮助。
+
 
 ## Open Source Crowdfunding Network 
 
@@ -83,36 +73,37 @@ Set up your own beautiful open source website in 15 minutes. Check out this exam
 <br><br>
 
 We want to build an open source network of crowdfunding/job sites. We'll make lists of nodes here. 
+我們想建立一個眾籌/招聘網站的開源網絡。我們將在此處列出節點列表。
 
 ## https://codepen.io/Teeke/live/eYBZPYo
 
 <br><br>
 
 
-
-
-## Here’s Our Support Forum
+## Here’s Our Support Forum 这是我们的支持论坛
 
 http://167.179.119.132/~kalkiclo/
 
-We need to buy a domain name and deploy it. , but it’s working.
+
 
 
 ## Why?
 
 
 We’re inspired by Mackay. He built a network of churches. We want to build a network of crowdfunding sites. 
+我們受到Mackay的啟發。他建立了教堂網絡。我們想建立一個眾籌網站網絡。
 
 
 
-# Tweet any articles you want
-
-You can take a Twitter feed from any channel. 
-
-Once you download surge You can redeploy in 1 minute.
+# Tweet any articles you want 鳴叫您想要的任何文章
 
 
-Please check out our Facebook page:
+You can take a Twitter feed from any channel. Or make your own Twitter feed. 您可以從任何渠道獲取Twitter提要。或製作自己的Twitter feed。 
+
+
+
+
+Please check out our Facebook page. 請查看我們的Facebook頁面
 
 https://www.facebook.com/Kalki-Open-Source-Jobs-Fixing-Earth-167283378349861
 
