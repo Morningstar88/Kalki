@@ -27,10 +27,10 @@
  </p>
  
 
-<br><br><br>
+<br><br>
 
 # [Test Site Now Live!](https://tamsui.surge.sh) 测试站点现已上线！
-<br><br><br>
+<br><br>
 # [Open Source Template Here](https://codepen.io/Teeke/pen/eYBJZwv) 开源模板在这里.
 
 # Mission
