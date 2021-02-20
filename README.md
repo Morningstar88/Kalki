@@ -31,7 +31,7 @@
 
 # [Test Site Now Live!](https://tamsui.surge.sh)
 <br><br><br>
-# [Open Source Template Here](https://codepen.io/Teeke/pen/eYBZPYo)
+# [Open Source Template Here](https://codepen.io/Teeke/pen/eYBJZwv)
 
 # Mission
 
