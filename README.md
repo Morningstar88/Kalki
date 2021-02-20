@@ -15,8 +15,8 @@
  
  <br><br><br>
  
-  *<h3>We want to create part time jobs:</h3>*
-*<h3> 我们想创造兼职工作</h3>*
+  <h3>We want to create part time jobs:</h3>
+<h3> 我们想创造兼职工作</h3>
 
 - Work picking up plastic bottles in Danshui, 250TWD/hour. 在淡水捡拾塑料瓶，每小时250TWD。
  
