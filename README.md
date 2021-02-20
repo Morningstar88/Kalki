@@ -48,17 +48,27 @@ Why are we building Kalki?
 我们为什么要建造卡尔基？
 
 - **Start small** You can fundraise less than 100USD. Even 20USD is fine. If you want a pair of drumsticks, or money to plant 3 trees, we'll help you. 
+- 
 - **Cleaning the Earth** We want to pay people 300TWD/per hour to clean beaches, pick up plastic bottles, plant trees, and fix the environment. 
+- 
 - **Localize*** We'll give you the software to run a Kalki node in your own town. It's totally free. 
+- 
 - **Open Source**. Take our software and do anything you want with it. The only limit is your imagination. 
+- 
 - **Decentralized Network** Decentralized is not just a buzzword. If you use our software, we don't have any control over you. Go crazy. Hopefully over 5 years, we can build a network of a few dozen, or a few hundred nodes. 
+- 
 - **Increasing code literacy** (to use Kalki, you need some HTML, CSS and coding skills). If you want to learn coding and start to raise money, maybe we can help.
 
 -**从小规模开始**您可以筹款不到100美元。甚至20美元也可以。如果您想要一对鼓槌或金钱来种植三棵树，我们将为您提供帮助。
+
 -**清洁地球**我们希望每小时向人们支付300TWD，以清洁海滩，捡起塑料瓶，栽种树木并修复环境。
+
 -**本地化***我们将为您提供在您自己的城镇中运行Kalki节点的软件。完全免费。
+
 -**开源**。使用我们的软件，并随心所欲地做任何事情。你的想象力是唯一的限制。
+
 -**分散网络**分散不仅仅是一个流行词。如果您使用我们的软件，我们对您没有任何控制权。疯了。希望在5年内，我们可以建立一个由几十个或几百个节点组成的网络。
+
 -**提高代码素养**（要使用Kalki，您需要一些HTML，CSS和编码技能）。如果您想学习编码并开始筹集资金，也许我们可以提供帮助。
 
 ## Open Source Crowdfunding Network 
@@ -78,59 +88,8 @@ We want to build an open source network of crowdfunding/job sites. We'll make li
 
 <br><br>
 
-The code is here. Please feel free to use it. 
-
-<hr>
-
-## https://codepen.io/Teeke/pen/eYBZPYo
 
 
-## 1. One Click Copy Money Raising Portal
-
-You can take this web-design and do anything you want with it. 
-
-The source code is free online. Check it out here: 
-
-## https://codepen.io/Teeke/pen/eYBJZwv
-
-## Open Source Designs
-
-This was the original design. We changed the font to Josefin Sans
-
-## https://codepen.io/paulnoble/pen/yVyQxv
-
-<p align="center">
-<img src="http://i.imgur.com/v6w17QK.jpg">
-</p>
-
-
-## 2. Twitter from Zero
-
-You can make your own version of Twitter here. 
-
-https://docs.google.com/document/d/1qit7KMXd2NiZInHSVosn4OzftgiedFe8Zvc6p4PU1ts/
-
-So you can make your own Twitter clone. 
-
-
-
-
-We work in a small cafe in Zhongxiao Fuxing. Get out at Exit 3 and find Aztec internet. 
-
-Aztec Cafe.  Zhongxiao Dong Lu. Section 4 (4 Duan) no 60.
-
-^ Please can you translate this into English.
-
-*
-
-Please check out our fundraiser here. 
-
-
-Here’s another design. 
-
-FIND CAROUSEL
-
-*
 
 ## Here’s Our Support Forum
 
@@ -139,37 +98,18 @@ http://167.179.119.132/~kalkiclo/
 We need to buy a domain name and deploy it. , but it’s working.
 
 
-*
-
-## Backend
-
-We’re building an API / a backend in Phoenix Elixir. 
-
-Check out the development server here:
-
-http://103.120.19.180:4000/
-
-
-
-*
-
-
-
 ## Why?
 
 
 We’re inspired by Mackay. He built a network of churches. We want to build a network of crowdfunding sites. 
 
-# One click deploy
 
-The design is free. You can run your site for free on surge. Our main aim is 
 
 # Tweet any articles you want
 
 You can take a Twitter feed from any channel. 
 
 Once you download surge You can redeploy in 1 minute.
-
 
 
 Please check out our Facebook page:
