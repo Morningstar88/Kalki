@@ -2,7 +2,7 @@
 <br>
 <br>
 
-<h1 align="center"> :earth_asia:    Kalki    :earth_africa: </h1>
+<h1 align="center"> Kalki    :earth_africa: </h1>
 
 <h1 align="center">Work Fixing Earth</h3>
 
@@ -15,9 +15,8 @@
  
  <br><br><br>
  
-  <h3>We want to create part time jobs:</h3>
-<p> 我们想创造兼职工作</p>
-
+ Part time, well paid work fixing your local area. 
+ 
 - Work picking up plastic bottles in Danshui, 250TWD/hour. 在淡水捡拾塑料瓶，每小时250TWD。
  
 - Work planting trees, 250TWD/hour. 植树工作，每小时250TWD。
@@ -26,11 +25,21 @@
 
  </p>
  
-
 <br><br>
+
+# CURRENT 2022 Design
+
+Open Source Template
+
+https://codepen.io/Teeke/live/zYRwPGO
+
+~O~
+
+# OLD 2021 DESIGN
 
 # [Test Site Now Live!](https://tamsui.surge.sh) 测试站点现已上线！
 <br><br>
+
 # [Open Source Template Here](https://codepen.io/Teeke/pen/eYBJZwv) 开源模板在这里.
 
 # Mission
@@ -80,12 +89,6 @@ We want to build an open source network of crowdfunding/job sites. We'll make li
 <br><br>
 
 
-## Here’s Our Support Forum 这是我们的支持论坛
-
-http://167.179.119.132/~kalkiclo/
-
-
-
 
 ## Why?
 
@@ -113,13 +116,8 @@ We’re learning how to use facebook ads. We want to attract investors.
 
 Kalki, move slowly and fix things. 
 
-:sunny: :sunny: :sunny:
-
 
 <a><img src="http://dump.thecybershadow.net/6c736bfd11ded8cdc5e2bda009a6694a/colortext.svg"/></a>
-
-
- 
 
 
 
