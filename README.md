@@ -1,8 +1,5 @@
 
-<br>
-<br>
-
-<h1 align="center"> Kalki    :earth_africa: </h1>
+<h1 align="center"> Kalki </h1>
 
 <h1 align="center">Work Fixing Earth</h3>
 
