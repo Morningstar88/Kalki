@@ -10,8 +10,6 @@
 <br><br><br>
 <hp align="center"><i>
  
- <br><br><br>
- 
  Part time, well paid work fixing your local area. 
  
 - Work picking up plastic bottles in Danshui, 250TWD/hour. 在淡水捡拾塑料瓶，每小时250TWD。
